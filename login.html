@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="<%=request.getContextPath()%>/static/icon/1478024568.ico" />
+
+
+	<style type="text/css">
+
+
+	body{
+
+		background-image: url("img/bank2.jpg");
+
+
+
+
+	}
+
+.font{
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: #086A87;
+   font-size: 14px;
+   text-transform:uppercase;
+  }
+
+  .boton{
+
+  	width: 320px;
+
+  }
+	</style>
+
+</head>
+<body class="font">
+
+
+
+<div class="container"> 
+
+        <div id="loginbox" style="width: 350px;margin: auto;margin-top: 100px;">     
+             			
+             	
+             	<div class="panel panel-primary" >
+
+						<div class="panel-heading">
+                      
+                        	
+							<img src="img/logobank.png"  style="width: 320px;height: 120px;margin: auto;" />
+           				
+                      
+                   	 </div>     
+
+
+
+						 <div class="panel-body" style="padding-top:30px;">
+             			 	
+             			 	 <form id="loginform" class="form-horizontal" role="form">
+
+								
+                         			 <div style="margin-bottom: 25px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user" style="color: #045FB4;"></i></span>
+                                        <input id="login-username" type="text" class="form-control font" name="username" value="" placeholder="INGRESAR USUARIO">                                        
+                                    </div>
+                         			
+									   <div style="margin-bottom: 15px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock" style="color: #045FB4;"></i></span>
+                                        <input id="login-password" type="password" class="form-control font" name="password" placeholder="INGRESAR PASSWORD">
+                                    </div>
+
+                                     <div class="input-group">
+                                      <div class="checkbox">
+                                        <label style="font-size: 13px;font-weight: bold;">
+                                          <input id="login-remember" type="checkbox" name="remember" value="1"> Recordar Contraseña
+                                        </label>
+                                      </div>
+                                    </div>
+                              			
+
+                              		 <div style="margin-top:20px;margin-left: 0px;" class="form-group">
+                                    <!-- Button -->
+
+									
+                                    <div class="">
+                                      <a id="btn-login" href="#" class="btn btn-primary boton" style="font-size: 16px;">Ingresar </a>
+                                      <!--
+                                      <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
+                                      -->
+                                     </div>
+                                    
+                 	
+                 	               </div>
+													
+                              						<!--
+                                  					<input type="text" ng-model="ctrl.user.username" name="uname" class="form-control font" 
+                                  					placeholder="Ingresar usuario" required ng-minlength="3"/>
+													-->
+										<!--
+                                  		<div class="has-error" ng-show="myForm.$dirty">
+                                      		<span ng-show="myForm.uname.$error.required">This is a required field</span>
+                                      		<span ng-show="myForm.uname.$error.minlength">Minimum length required is 3</span>
+                                      		<span ng-show="myForm.uname.$invalid">This field is invalid </span>
+                                  		</div>
+                                  		-->
+                              			
+								<div class="form-group">
+                                    <div class="col-md-12">
+                                        <div style="border-top: 2px solid#888; padding-top:15px; font-size:85%" >
+                                            No tienes una cuenta!
+                                        <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()" style="font-weight: bold;">
+                                            Registrate
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                          		
+									
+									
+                      			
+
+
+             			 </form>
+				
+                        </div>                     
+                    </div>  
+        </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
